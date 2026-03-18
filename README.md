@@ -172,14 +172,6 @@ Three models achieve high accuracy in distinguishing emergency vehicle sirens fr
 
 Specific metrics are displayed after training each model.
 
-## Troubleshooting
-
-| Issue | Fix |
-|-------|-----|
-| "No module named 'librosa'" | `pip install librosa` |
-| "FileNotFoundError: data/audio/" | Ensure data folders exist and contain .wav files |
-| Audio files not processing | Check that files are in .wav format |
-| Low accuracy | Ensure balanced dataset with sufficient examples of both classes |
 
 ## Future Enhancements
 
